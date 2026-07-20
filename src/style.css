@@ -38,9 +38,7 @@ a{
   box-sizing: border-box;
   padding: 22px 24px;
 }
-/* .nav-item:first-child {
-  margin-left: 0;
-} */
+
 .nav-link:hover{
   color: var(--blue-color);
 }
