@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
 }
 
@@ -20,20 +20,23 @@ a{
   margin: 0;
   padding: 0;
 }
+
 .nav-link{
   display: inline-block;
   height: 60px;
   line-height: 60px;
   text-align: center;
   position: relative;
-  color: #000000;
+  color: #000;
   font-size: 12px;
   text-transform: uppercase;
 }
+
 .logo-link {
   display: inline-flex;
   align-items: center;
 }
+
 .logo-img {
   display: block;
   max-width: 100%;
@@ -52,12 +55,15 @@ a{
 .nav-link:hover{
   color: var(--blue-color);
 }
+
 .nav-item {
   margin-right: 20px;
 }
+
 .nav-link.is-active{
   color: var(--blue-color);
 }
+
 .nav-link.is-active::after{
   content: '';
   position: absolute;
@@ -68,15 +74,19 @@ a{
   background-color: var(--blue-color);
   border-radius: 8px;
 }
+
 .nav-link[data-qa="hover"] {
-  color: #000000;
+  color: #000;
 }
+
 .nav-link[data-qa="hover"]:hover {
   color: var(--blue-color);
 }
+
 .nav-item:last-child{
   margin-right: 0;
 }
+
 .nav {
   display: flex;
   align-items: center;
