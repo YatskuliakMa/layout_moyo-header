@@ -30,6 +30,16 @@ a{
   font-size: 12px;
   text-transform: uppercase;
 }
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+}
+.logo-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -67,3 +77,8 @@ a{
 .nav-item:last-child{
   margin-right: 0;
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
+
