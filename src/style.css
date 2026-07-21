@@ -50,7 +50,7 @@ a {
   justify-content: space-between;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 50px;
+  padding: 0 50px 4px 50px;
 }
 
 .nav-link:hover {
@@ -68,7 +68,7 @@ a {
 .nav-link.is-active::after {
   content: '';
   position: absolute;
-  bottom: -4px;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 4px;
