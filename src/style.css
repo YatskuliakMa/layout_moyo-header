@@ -8,12 +8,12 @@ body {
   font-weight: 500;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   align-items: center;
   list-style: none;
@@ -21,7 +21,7 @@ a{
   padding: 0;
 }
 
-.nav-link{
+.nav-link {
   display: inline-block;
   height: 60px;
   line-height: 60px;
@@ -52,7 +52,7 @@ a{
   padding: 22px 24px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: var(--blue-color);
 }
 
@@ -60,11 +60,11 @@ a{
   margin-right: 20px;
 }
 
-.nav-link.is-active{
+.nav-link.is-active {
   color: var(--blue-color);
 }
 
-.nav-link.is-active::after{
+.nav-link.is-active::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -83,7 +83,7 @@ a{
   color: var(--blue-color);
 }
 
-.nav-item:last-child{
+.nav-item:last-child {
   margin-right: 0;
 }
 
