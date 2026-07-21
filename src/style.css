@@ -50,7 +50,7 @@ a {
   justify-content: space-between;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 50px 4px 50px;
+  padding: 0 50px 4px;
 }
 
 .nav-link:hover {
