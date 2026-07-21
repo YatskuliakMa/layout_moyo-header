@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
+  line-height: 1;
 }
 
 a {
@@ -39,8 +40,8 @@ a {
 
 .logo-img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 40px;
+  height: 40px;
 }
 
 .header {
